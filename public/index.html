@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app='myApp'>
+  <head>
+    <title>My AngularJS App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
+    <script src='app.js'></script>
+    <script src='main/mainController.js'></script>
+    <script src='film/filmController.js'></script>
+    <script src='filters/reverse-filter.js'></script>
+    <script src='filters/date-suffix.js'></script>
+    <script src='dataFactory.js'></script>
+  </head>
+  <body>
+      <div ng-view>
+      </div>
+  </body>
+</html>
